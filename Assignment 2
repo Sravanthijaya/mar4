@@ -1,0 +1,19 @@
+n=int(input())
+l=input().split() 
+t=[]
+for i in l:
+    t.append(int(i))
+x=[]
+for i in t:
+    if i not in x:
+        x.append(i)
+x.sort(reverse=True)
+print(x)
+print(x[i])
+
+
+Output:
+5
+1 6 3 5 2
+[6, 5, 3, 2, 1]
+3
